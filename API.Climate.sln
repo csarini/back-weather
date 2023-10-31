@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{18215B4B-2215-46E2-9F43-7A7AC1C7D3DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5963F52B-FF95-439A-B63E-C21DAC0A6974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{30D6FC11-CEF3-4323-A46A-3FD053CDC37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Climate", "API.Climate\API.Climate.csproj", "{4985B301-12EA-4455-91CC-3F696DB855D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Climate.WebService", "Infrastructure\API.Climate.WebService\API.Climate.WebService.csproj", "{D5704D6B-8436-43D0-BCD8-5A640728ED3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Climate.DataBase", "Infrastructure\API.Climate.DataBase\API.Climate.DataBase.csproj", "{1BFA0AFD-6AE1-4CC7-B1BA-D21A3E523B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Climate.Application", "Core\API.Climate.Application\API.Climate.Application.csproj", "{C8538B21-F326-4A26-BC00-332AA470E7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Climate.Domain", "Core\API.Climate.Domain\API.Climate.Domain.csproj", "{16BCC575-D332-4C3D-B2B3-257AC5C53223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4985B301-12EA-4455-91CC-3F696DB855D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4985B301-12EA-4455-91CC-3F696DB855D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4985B301-12EA-4455-91CC-3F696DB855D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4985B301-12EA-4455-91CC-3F696DB855D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5704D6B-8436-43D0-BCD8-5A640728ED3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5704D6B-8436-43D0-BCD8-5A640728ED3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5704D6B-8436-43D0-BCD8-5A640728ED3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5704D6B-8436-43D0-BCD8-5A640728ED3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BFA0AFD-6AE1-4CC7-B1BA-D21A3E523B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BFA0AFD-6AE1-4CC7-B1BA-D21A3E523B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BFA0AFD-6AE1-4CC7-B1BA-D21A3E523B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BFA0AFD-6AE1-4CC7-B1BA-D21A3E523B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8538B21-F326-4A26-BC00-332AA470E7F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8538B21-F326-4A26-BC00-332AA470E7F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8538B21-F326-4A26-BC00-332AA470E7F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8538B21-F326-4A26-BC00-332AA470E7F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BCC575-D332-4C3D-B2B3-257AC5C53223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BCC575-D332-4C3D-B2B3-257AC5C53223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BCC575-D332-4C3D-B2B3-257AC5C53223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BCC575-D332-4C3D-B2B3-257AC5C53223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5704D6B-8436-43D0-BCD8-5A640728ED3D} = {5963F52B-FF95-439A-B63E-C21DAC0A6974}
+		{1BFA0AFD-6AE1-4CC7-B1BA-D21A3E523B26} = {5963F52B-FF95-439A-B63E-C21DAC0A6974}
+		{C8538B21-F326-4A26-BC00-332AA470E7F1} = {18215B4B-2215-46E2-9F43-7A7AC1C7D3DF}
+		{16BCC575-D332-4C3D-B2B3-257AC5C53223} = {18215B4B-2215-46E2-9F43-7A7AC1C7D3DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D124EF9A-DC7B-463E-8626-A654A583C2B0}
+	EndGlobalSection
+EndGlobal
